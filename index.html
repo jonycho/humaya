@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humaya</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Owl Carrousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar Pricipal-->
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="IMAGENES/Logo/HsinDulce100x100.png" alt="Logo Humaya" width="50" class="d-inline-block align-text-top">
+              </a>
+              <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#quienes">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Recetas</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- Section Portada-->
+        <section class="img-portada d-flex flex-column justify-content-center">
+            <div class=" p-2 w-75 text-white">
+                <h1 class="fw-bold display-2">DULCES DEL ALMA</h1>
+                <p class="">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañandote en los momentos más importantes de la vida.</p>
+                <a class="btn btn-dark bg-opacity-50">Conocenos</a>
+            </div>
+        </section>   
+
+        <!-- Section Calidad-->
+        <section class="calidad p-4 bg-dark">
+            <div>
+                <h2 class="text-white text-center mb-4 fw-lighter">La mejor calidad para vos</h2>
+                <div class="d-flex justify-content-center gap-4 text-center">
+                    <div>
+                        <img class="img-calidad" src="IMAGENES/calidad/Recurso 1.png">
+                        <p class="text-uppercase my-3">100% Orgánico</p>
+                    </div>
+                    <div>
+                        <img class="img-calidad" src="IMAGENES/calidad/Recurso 2.png">
+                        <p class="text-uppercase my-3">Sin Tacc</p>
+                    </div>
+                    <div>
+                        <img class="img-calidad" src="IMAGENES/calidad/Recurso 3.png">
+                        <p class="text-uppercase my-3">Sin Conservantes</p>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        
+
+        
+
+
+        <!-- Section Productos-->
+        <section class="productos" id="productos">
+            <h2 class="bg-body-secondary p-3 fw-bold mb-0 text-center text-uppercase fs-4">Productos</h2>
+
+            <div class="card border-0">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <img src="IMAGENES/Productos/Producto1.png" class="img-producto object-fit-cover" alt="image">
+                  </div>
+                  <div class="col-md-4 bg-dark p-4">
+                    <div class="card-body producto-info">
+                        <h3 class="card-title text-uppercase fw-light mb-4">Dulce de Leche Tradicional</h3>  
+                        <p class="card-text descripcion text-white">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
+                        <p class="card-text presentacion">Presentación en frasco de vidrio de 580gr</p>
+                        <a href="#" class="btn-info">+ INFO</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 impar">
+                <div class="row g-0">
+                  <div class="col-md-8 bg-dark p-4 texto">
+                    <div class="card-body producto-info">
+                        <h3 class="card-title text-uppercase fw-light mb-4">Dulce de Leche sin Azúcar</h3>  
+                        <p class="card-text descripcion text-white">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+                        <p class="card-text presentacion">Presentación en frasco de vidrio de 580gr y 280gr.</p>
+                        <a href="#" class="btn-info">+ INFO</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 imagen">
+                    <img src="IMAGENES/Productos/Producto5.png" class="img-producto object-fit-cover" alt="image">
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <img src="IMAGENES/Productos/Producto3.png" class="img-producto object-fit-cover" alt="image">
+                  </div>
+                  <div class="col-md-4 bg-dark p-4">
+                    <div class="card-body producto-info">
+                        <h3 class="card-title text-uppercase fw-light mb-4">Dulce Choconutt</h3>  
+                        <p class="card-text descripcion text-white">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
+                        <p class="card-text presentacion">Presentación en frasco de vidrio de 280gr</p>
+                        <a href="#" class="btn-info">+ INFO</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- caja distinta -->
+              <div class="card border-0 rounded-0 elabContainer">
+                <div class="row g-0">
+                  <div class="col-md-6 p-4">
+                    <div class="card-body producto-info">
+                        <h3 class="card-title text-uppercase fw-light mb-4 text-center">Alfajores de Maicena</h3>  
+                        <p class="card-text descripcion text-white">Alfajores de dulce de leche con coco relleno, relleno con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
+                        <p class="card-text presentacion">Presentación en caja de 6 y 12 alfajores</p>
+                        <a href="#" class="btn-info">+ INFO</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 p-4 text-center">
+                    <img src="IMAGENES/Productos/Prod4.png" class="img-producto object-fit-cover" alt="image">
+                  </div>
+                </div>
+              </div>
+
+
+
+        </section>
+
+        <section class="quienes" id="quienes">
+
+            <div>
+                <h2 class="bg-body-secondary p-3 fw-bold mb-0 text-center text-uppercase fs-4">Quienes somos</h2>  
+                <div class="container-quienes">
+                  <div class="texto-quienes">
+                    <p>Nos apasiona la cocina, especialmente la pastelería. Empezamos a cocinar en nuestra casa de Corrientes, siempre haciendo los postres para la familia... tarta de manzana, rogel, panqueques, entre otros.​ Luego de 30 años en el rubro, logramos llegar a muchas familias, trabajos, eventos, confiterías. Todos los días tenemos el compromiso de trabajar con responsabilidad para no perder nuestra identidad, "productos caseros con ese saborcito que nos recuerda a casa”.</p>
+    
+                    <p>En nuestra cocina nunca van faltar budines, cuadrados, bandejas materas y estas frases tan alentadoras</p>  
+                      
+                      <p class="frase">"Si lo puedes soñar, lo puedes hacer”.  </p>    
+                  </div>
+
+                  <!-- <img src="IMAGENES/Productos/ceac-27-03-2019-reposteria.jpg" alt="quienes"> -->
+
+                </div>
+            </div>
+            <div class="clientes">
+                <h2 class="text-uppercase fs-4 text-white text-center p-3">Nuestros Clientes</h2>
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item"><img src="IMAGENES/clientes/Arcor_logo.png" alt="..."></div>
+                  <div class="item"><img src="IMAGENES/clientes/cafe_martinez.png" alt="..."></div>
+                  <div class="item"><img src="IMAGENES/clientes/iag.png" alt="..."></div>
+                  <div class="item"><img src="IMAGENES/clientes/paulina.png" class="card-img-top" alt="..."></div>
+                  <div class="item"><img src="IMAGENES/clientes/Starbucks-logo.png" class="card-img-top" alt="..."></div>
+                </div>
+        
+                    </div>
+
+
+        </section>
+
+        <!-- Contacto-->
+        <section id="contacto">
+            <div>
+                <h2 class="bg-body-secondary p-3 fw-bold mb-0 text-center text-uppercase fs-4">Contacto</h2>
+
+                <div class="container-contacto">
+                  <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0392292867527!2d-58.3705213!3d-34.6537122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2ses!4v1679095268623!5m2!1ses!2ses" loading="lazy" style="border: 0px;"></iframe>
+                  </div>
+
+                  <div class="form-container">
+                    <p>Déjanos tu consulta y nuestro personal se pondrá en contacto a la brevedad:</p>
+
+                      <form class="form-contacto">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" name="nombre" class="form-control">
+  
+                          <label for="Email">Email:</label>
+                          <input type="email" name="email" class="form-control">
+  
+                          <label for="consulta">Consulta:</label>
+                          <textarea id="consulta" name="consulta" class="form-control" rows="3"></textarea> 
+  
+                          <button type="submit" class="btn-info">Enviar</button>
+                      </form>
+                  </div>  
+                </div>
+         
+            </div>
+
+        </section>   
+        
+        <section id="recetas" class="bg-dark text-light p-2">
+          <h2 class="text-uppercase fs-4 text-white text-center p-3">Recetas</h2>
+          <p class="text-center">Aquí encontrará las mejores recetas hechas con nuestro dulce de leche</p>
+
+          <div class="container text-center my-3">
+            <div class="row mx-auto my-auto justify-content-center">
+              <div id="recipeCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+
+                  <div class="carousel-item active">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/conitos.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Conitos</h5>
+                          <p class="card-text">Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/pepas.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Pepas</h5>
+                          <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/torta-nutt.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Torta Nutt</h5>
+                          <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/pepas.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Pepas</h5>
+                          <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+                          
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/conitos.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Conitos</h5>
+                          <p class="card-text">Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+                          
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <div class="card-img">
+                          <img src="IMAGENES/recetas/torta-nutt.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Torta Nutt</h5>
+                          <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
+                          
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn-info">Preparación</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>		
+          </div>
+
+        </section>
+        
+    </main>
+    
+    <!-- Footer -->
+<footer class="page-footer font-small text-light pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mt-md-0 mt-3 mb-3">
+
+        <!-- Content -->
+        <img src="IMAGENES/Logo/LogoHumaya100x100.png" alt="">
+
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Menu -->
+        <h5 class="text-uppercase">Menu</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Home</a>
+          </li>
+          <li>
+            <a href="#!">Productos</a>
+          </li>
+          <li>
+            <a href="#!">¿Quienes Somos?</a>
+          </li>
+          <li>
+            <a href="#!">Contacto</a>
+          </li>
+          <li>
+            <a href="#!">Recetas</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Navegación -->
+        <h5 class="text-uppercase">Navegación</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Preguntas frecuentes</a>
+          </li>
+          <li>
+            <a href="#!">Distribuidores</a>
+          </li>
+          <li>
+            <a href="#!">Prensa</a>
+          </li>
+          <li>
+            <a href="#!">Recetas exclusivas</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Redes -->
+        <h5 class="text-uppercase">Redes Sociales</h5>
+
+        <ul class="list-unstyled d-flex gap-3">
+          <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-tiktok"></a></i></li>
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <p class="mb-0">Maquetado Web por Jonathan Ychovsky</p>
+    <ul class="redes">
+      <li><a href="https://www.linkedin.com/in/jonathan-ychovsky" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="https://twitter.com/jonycho" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="https://github.com/jonycho" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+  </ul>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+    
+    <button type="button" class="btn btn-light rounded-circle" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

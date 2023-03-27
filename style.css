@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-collapse{
+    flex-grow:0;
+}
+
+.img-portada{
+    background: url('IMAGENES/Central/imagenCentral.png') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.calidad p{
+    color:#BCA177;
+}
+
+.img-calidad{
+    width: 65px;
+}
+
+    .producto-info h3{
+        color:#BCA177;
+    }
+
+    .presentacion{
+        color:#D5AB8B;
+        margin-bottom: 40px;
+    }
+
+    .btn-info{
+        color:#D5AB8B;
+        border:2px solid #D5AB8B;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        margin: auto;
+        width: 90px;
+        text-align: center;
+    }
+
+    .btn-info:hover{
+        background-color: #D5AB8B;
+        color:#2C2929
+    }
+
+    .img-producto{
+        max-width: 100%;
+        height: 100%;
+    }
+
+    
+    .nav-link:hover{
+        color:#D5AB8B !important;
+    }
+    
+    .elabContainer{
+        background-color: #BCA177;
+    }
+
+        .elabContainer h3, .elabContainer .presentacion{
+            color: #684723;
+        }
+
+        .elabContainer .btn-info{
+            border: 2px solid #684723;
+            color: #684723;
+        }
+
+        .elabContainer .btn-info:hover{
+            background-color: #684723;
+            color:#BCA177;
+        }
+
+          .texto{
+            order:2;
+        }
+        .imagen{
+            order:1;
+        }
+
+        .container-quienes{
+            background: url('IMAGENES/Productos/ceac-27-03-2019-reposteria.jpg') no-repeat;
+            background-size:cover;
+            background-position: center;
+            filter: grayscale(90%);
+            padding: 30px;
+            min-height: 300px;
+            display: flex;
+    align-items: center;
+        }
+
+        .texto-quienes{
+            background-color: rgb(188,161,119,0.85);
+    padding: 15px;
+        }
+        .frase{
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .clientes h2{
+            background-color: #2C2929;
+        }
+        
+        
+        .container-contacto{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 10px;
+        }
+        
+        .map-container{
+            width: 100%;
+        }
+
+        .map-container iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+        .form-container{
+            padding: 10px 40px;
+            color: #684723;
+        }
+
+        .form-container p{
+            font-weight: 600;
+        }
+
+        .form-contacto{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .form-contacto label{
+            text-transform: uppercase;
+        }
+
+        .form-contacto input, .form-contacto textarea{
+            background-color:#684723;
+            color:white;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .form-contacto input:focus, .form-contacto textarea:focus{
+            background-color:#684723;
+            color:white;
+            outline: none;
+        }
+
+        .form-contacto .btn-info{
+            background-color: white;
+            text-transform: uppercase;
+            margin-top:20px;
+            color: #2C2929;
+            border-color: #2C2929;
+        }
+
+        .form-contacto .btn-info:hover{
+            background-color: #684723;
+            color: white;
+        }
+
+       
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+          }
+
+
+
+#recetas .card{
+    border: none;
+}
+#recetas .card-img img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#recetas .card-body{
+background-color: #BCA177;
+}
+
+#recetas .card-title{
+    text-transform: uppercase;
+    color:#2C2929;
+    font-weight: lighter;
+}
+
+#recetas .card-text{
+    font-size: 0.85em;
+}
+
+#recetas .btn-info{
+    display: inline-block;
+    width: auto;
+    color: #2C2929;
+            border-color: #2C2929;
+            text-transform: uppercase;
+            font-size: 0.75em;
+}
+
+#recetas .card-footer{
+    background-color: #BCA177;
+    border: none;
+}
+
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.owl-carousel .owl-item img{
+    max-width: 100%;
+    width: 120px;
+}
+
+.owl-prev, .owl-next{
+    font-size:2rem !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: none;
+    color:#BCA177
+}
+
+.page-footer{
+    background-color: #2C2929;
+}
+    .footer-copyright{
+        background-color: #BCA177;
+    }
+
+    .redes{
+        list-style: none;
+        display: flex;
+        padding: 0;
+        font-size: 1.2em;
+        gap: 20px;
+        justify-content: center;
+        margin: 0;
+        
+    }
+    .redes a{
+        color:#2C2929
+    }
+
+    .redes a:hover{
+        color: white;
+    }
+
+    footer h5{
+        color:#BCA177;
+        font-weight: lighter;
+    }
+
+    footer ul li a{
+        color:white;
+        text-decoration: none;
+    }
+
+    footer ul li a:hover{
+        color:#D5AB8B
+    }
+
+    @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+    .carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+
+    @media (min-width:768px){
+        .texto{
+            order:1;
+        }
+        .imagen{
+            order:2;
+        }
+
+        .container-contacto{
+            flex-direction: row;
+        }
+        .map-container{
+            width: 40%;
+        }
+        .form-container{
+            width: 60%;
+        }
+
+        .carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+       
+    }
+  
+    .carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+
+
+    @media (min-width:991px){
+        .navbar-nav .nav-item .nav-link{
+            color:white;
+        }
+    }
+	
